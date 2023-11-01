@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Indigue sus preferencias por favor</legend>
+            <label for="fechanac">Elige una Fecha </label>
+            <input type="date" name="fechanac" id="fechanac"><br>
+            <label for="archivo">Elige un fichero</label>
+            <input type="file" name="archivo" id="archivo" accept=".png,.jpg,.gif" /><br>
+            <input type="radio" name="lengprog" id="AMD" value="AMD" checked>
+            <label for="lengprog">AMD</label>
+            <input type="radio" name="lengprog" id="Intel i5" value="Intel i5">
+            <label for="lengprog">Intel i5</label>
+            <input type="radio" name="lengprog" id="Intel i7" value="Intel i7">
+            <label for="lengprog">Intel i7</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <input type="radio" name="lengprog" id="Matematicas" value="Matematicas" checked>
+            <label for="lengprog">Matematicas</label>
+            <input type="radio" name="lengprog" id="Historia" value="Historia">
+            <label for="lengprog">Historia</label>
+            <input type="radio" name="lengprog" id="Geografia" value="Geografia">
+            <label for="lengprog">Geografia</label>
+            <input type="radio" name="lengprog" id="Lengua" value="Lengua">
+            <label for="lengprog">Lengua</label><br>
+            <label for="mesnac">Ingrese su nombre: </label>
+            <input type="text" name="mesnac" id="mesnac"><br>
+            <label for="mesnac">Ingrese su apellido: </label>
+            <input type="text" name="mesnac" id="mesnac"><br>
+            <label for="mesnac">Ingresu diereccion: </label>
+            <input type="text" name="mesnac" id="mesnac">
+            <br><br>
+            <label for="colorfav">Elige un color: </label>
+            <input type="color" name="colorfav" id="colorfav"><br>
+            <label for="comentarios"></label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Utilize este cuadro para escribrir:"></textarea><br>
+            <label for="fechanac">Elige una Fecha </label>
+            <input type="date" name="fechanac" id="fechanac"><br>
+            <label for="browser"></label>
+            <select name="browser" id="browser">
+                <option value="Ingles">Ingles</option>
+                <option value="Español">Español</option>
+                <option value="Sociales">Sociales</option>
+                <option value="Matematicas">Matematicas</option>
+            </select><br>
+            <label for="hora">Elige una hora: </label>
+            <input type="time" name="hora" id="hora"><br>
+            <label for="archivo">Elige un fichero</label>
+            <input type="file" name="archivo" id="archivo" accept=".png,.jpg,.gif" /><br>
+            <input type="checkbox" name="genero" id="Hombre" value="Hombre" checked>
+            <label for="Hombre">Hombre</label>
+            <input type="checkbox" name="genero" id="Mujer" value="Mujer">
+            <label for="Mujer">Mujer</label><br>
+        </fieldset>
+    </form>
+</body>
+</html>
