@@ -1,0 +1,24 @@
+* {
+    color: aqua;
+}
+p {color:aliceblue;
+
+}
+.text-import{
+color: aqua;
+font-size: 1,5em;
+
+}
+#text-html {
+    color: aquamarine;
+}
+div p sub {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+div p .text-import {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+u, i, .text-import {
+    border: cadetblue;
+}
