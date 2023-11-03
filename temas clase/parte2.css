@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: maroon;
+    height: 40vh;
+    text-align: center;
+    color: aliceblue;
+}
+
+section{
+    background: orangered;
+}
+
+.texto{
+    width: 150px;
+    height: 150px;
+    margin: auto 45%;
+    background-color: grey;
+    border: 4px solid white;
+}
+
